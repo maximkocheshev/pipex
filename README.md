@@ -1,6 +1,6 @@
 # Pipex
-Our objective is to code the Pipex program.
-It should be executed in this way:
+### ***The aim of the mandatory part is:***
+To code the Pipex program. It should be executed in this way:
 ```
 $> ./pipex file1 cmd1 cmd2 file2
 ```
