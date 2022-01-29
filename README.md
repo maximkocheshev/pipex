@@ -1,5 +1,5 @@
 # Pipex
-### ***The aim of the mandatory part is:***
+### ***The aim of the project is:***
 To code the Pipex program. It should be executed in this way:
 ```
 $> ./pipex file1 cmd1 cmd2 file2
