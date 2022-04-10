@@ -20,7 +20,7 @@ CGLAGS		=	-Wall -Wextra -Werror -I${HEADER}
 
 all			:	${NAME}
 
-$(NAME)		:	$(OBJ) ${LIB_OBJ} ${HEADER}
+${NAME}		:	$(OBJ) ${LIB_OBJ} ${HEADER}
 	$(CC) $(CFLAGS) $(OBJ) $(LIB_OBJ) -o $(NAME)
 
 clean		:

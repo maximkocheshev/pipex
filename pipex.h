@@ -12,10 +12,10 @@
 
 #ifndef PIPEX_H
 # define PIPEX_H
-# include <unistd.h> // write, dup2, close
-# include <fcntl.h> // O_RDONLY, O_...
-# include <stdlib.h> // EXIT_FAILURE, malloc, free
-# include <stdio.h> // STDIN
+# include <unistd.h>    //  write, dup2, close
+# include <fcntl.h>     //  O_RDONLY, O_...
+# include <stdlib.h>    //  EXIT_FAILURE, malloc, free
+# include <stdio.h>     //  STDIN
 
 # define STDERR 2
 

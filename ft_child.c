@@ -20,10 +20,10 @@ void	child_two(t_data *data, char **argv, char **envp)
 		return (perror("Open of File 2 failed"));
 	close(data->end[1]);
 	if (dup2(data->end[0], STDIN_FILENO) < 0)
-		return (perror("dup2"));
+		return (perror("dup2 failed"));
 	close(data->end[0]);
 	if (dup2(data->fdout, STDOUT_FILENO) < 0)
-		return (perror("dup2"));
+		return (perror("dup2 failed"));
 	close(data->fdout);
 	if (!data->flag2)
 		execve(data->cmd_path2, data->cmd2, envp);
